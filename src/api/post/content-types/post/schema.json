@@ -31,6 +31,16 @@
     },
     "create_at": {
       "type": "datetime"
+    },
+    "upload": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
