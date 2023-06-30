@@ -29,18 +29,19 @@
       "relation": "oneToMany",
       "target": "api::category.category"
     },
-    "create_at": {
-      "type": "datetime"
-    },
-    "upload": {
+    "main_cover": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "keyword": {
+      "type": "text"
     }
   }
 }
