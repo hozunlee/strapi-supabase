@@ -15,14 +15,13 @@
     "title": {
       "type": "string"
     },
-    "body": {
+    "content": {
       "type": "richtext"
     },
-    "image": {
-      "type": "string"
-    },
     "views": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0,
+      "required": true
     },
     "categories": {
       "type": "relation",
