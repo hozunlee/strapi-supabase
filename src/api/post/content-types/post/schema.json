@@ -41,6 +41,9 @@
     },
     "keyword": {
       "type": "text"
+    },
+    "desc": {
+      "type": "text"
     }
   }
 }
