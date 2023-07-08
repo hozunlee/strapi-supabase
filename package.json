@@ -11,6 +11,7 @@
     "sitemap": "strapi-sitemap"
   },
   "dependencies": {
+    "@strapi/plugin-documentation": "^4.11.4",
     "@strapi/plugin-i18n": "4.11.4",
     "@strapi/plugin-users-permissions": "4.11.4",
     "@strapi/strapi": "4.11.4",
